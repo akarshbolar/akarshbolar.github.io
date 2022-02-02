@@ -31,7 +31,7 @@ export class ProfileService {
   Expertise: Python · Java · JavaScript · Angular · MySQL · C · C++ · Machine Learning · Cloud Computing · Distributed Systems · ELK · Dockers · Kubernetes · Apache Airflow · AWS · MongoDB · Security · Flask · Virtualization · Powershell `
 
   about ="Life's motto: Don't settle for good, demand great!"
-  resumeurl = "https://drive.google.com/file/d/1dc8i2ixYia5O5XC15Tm43vyqdHlL4azc/view?usp=sharing"
+  resumeurl = "https://drive.google.com/file/d/1OdRv9v8Z6CdhOg0hz_KLmTuaaMKQOKbG/view?usp=sharing"
 
   // skillsData: any = [
   //   {
@@ -99,6 +99,16 @@ export class ProfileService {
   ];
   exprienceData: any = [
     {
+      id: 5,
+      company: 'Purdue University - Library Science',
+      location: 'West Lafayette, USA',
+      timeline: 'Aug 2021 - Present',
+      role: 'Research Assistant',
+      work: `Research Assistant working with Purdue University Library Sciences working on techniques of data preservation, extraction and visualization. . 
+      Involved with development of PURR - Research Repository.`
+
+    },
+    {
       id: 4,
       company: 'Societe Generale - GSC',
       location: 'Bangalore, India',
@@ -106,7 +116,7 @@ export class ProfileService {
       role: 'Senior Software Engineer',
       work: `Single-handedly developed cloud native web applications (infrastructure as a service) to track, monitor and upgrade VM’s and hardware assets; 
       serving 200 daily users and saving efforts of 10 full-time employees .
-      TechStack: Angular 8, Python, MongoDB, RabbitMQ, Kubernetes . . 
+      TechStack: Angular 8, Python, MongoDB, RabbitMQ, Kubernetes . 
       Designed and developed workflows and plugins to detect and auto resolve failures in VMs and Servers using Apache Airflow Orchestrator with the detection algorithm built using the Support Vector Machine model.
       This reduced manual intervention/downtime by 40% .
       Tech Stack: Apache Airflow, Apache Kafka, ELK Stack, Prometheus.`
@@ -122,7 +132,7 @@ export class ProfileService {
 
       Developed an ML model using Convolutional Neural Networks with a sliding window approach yielding results with an accuracy of 90% . 
       
-      Approved by ISRO and the findings published as a research paper in the IEEE Journal- “Classification of Urban Data using Satellite Imaging” .`
+      Approved by ISRO and the findings published as a research paper in the IEEE Journal- “Classification of Urban Data using Satellite Imaging”.`
     },
 
     {

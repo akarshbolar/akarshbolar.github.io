@@ -1,5 +1,5 @@
 {
-  "name": "personal-portfoli-angular",
+  "name": "akarsh-bolar-angular",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,10 +8,10 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "dev:ssr": "ng run personal-portfoli-angular:serve-ssr",
-    "serve:ssr": "node dist/personal-portfoli-angular/server/main.js",
-    "build:ssr": "ng build --prod && ng run personal-portfoli-angular:server:production",
-    "prerender": "ng run personal-portfoli-angular:prerender"
+    "dev:ssr": "ng run akarsh-bolar-angular:serve-ssr",
+    "serve:ssr": "node dist/akarsh-bolar-angular/server/main.js",
+    "build:ssr": "ng build --prod && ng run akarsh-bolar-angular:server:production",
+    "prerender": "ng run akarsh-bolar-angular:prerender"
   },
   "private": true,
   "dependencies": {
